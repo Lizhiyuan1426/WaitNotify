@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 class NumAndCode{
-	private char code = 'A'-1;
+	private char code = 'A' - 1;
 	private int num = 0;
 	Lock lock = new ReentrantLock();
 	Condition condition = lock.newCondition();
